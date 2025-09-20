@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "student@college.edu",
+      "password": "student123",
+      "name": "Priya Sharma",
+      "role": "student",
+      "college": "Delhi University",
+      "course": "B.Tech Computer Science",
+      "year": 2,
+      "phone": "+91-9876543210",
+      "emergencyContact": "+91-9876543211",
+      "language": "Hindi",
+      "profile": {
+        "age": 20,
+        "gender": "Female",
+        "previousAssessments": ["phq9-001", "phq9-002"],
+        "counselingSessions": 3,
+        "joinedDate": "2024-01-15"
+      }
+    },
+    {
+      "id": "2", 
+      "email": "counselor@college.edu",
+      "password": "counselor123",
+      "name": "Dr. Rajesh Kumar",
+      "role": "counselor",
+      "qualification": "M.A. Psychology, Ph.D. Clinical Psychology",
+      "experience": 8,
+      "specialization": ["Depression", "Anxiety", "Academic Stress"],
+      "languages": ["English", "Hindi", "Punjabi"],
+      "availability": {
+        "monday": ["09:00", "17:00"],
+        "tuesday": ["09:00", "17:00"],
+        "wednesday": ["09:00", "17:00"],
+        "thursday": ["09:00", "17:00"],
+        "friday": ["09:00", "17:00"]
+      }
+    },
+    {
+      "id": "3",
+      "email": "admin@college.edu", 
+      "password": "admin123",
+      "name": "Prof. Meera Patel",
+      "role": "college_admin",
+      "college": "Delhi University",
+      "department": "Student Welfare"
+    },
+    {
+      "id": "4",
+      "email": "superadmin@platform.com",
+      "password": "super123", 
+      "name": "System Administrator",
+      "role": "system_admin"
+    }
+  ]
+}

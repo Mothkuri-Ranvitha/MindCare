@@ -1,0 +1,31 @@
+{
+  "appointments": [
+    {
+      "id": "apt-001",
+      "studentId": "1",
+      "counselorId": "2", 
+      "date": "2024-12-20",
+      "time": "10:00",
+      "duration": 60,
+      "status": "scheduled",
+      "type": "individual",
+      "mode": "online",
+      "notes": "First session - assessment"
+    },
+    {
+      "id": "apt-002",
+      "studentId": "1",
+      "counselorId": "2",
+      "date": "2024-12-18",
+      "time": "14:00", 
+      "duration": 45,
+      "status": "completed",
+      "type": "individual",
+      "mode": "in-person",
+      "notes": "Follow-up session"
+    }
+  ],
+  "timeSlots": [
+    "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00"
+  ]
+}

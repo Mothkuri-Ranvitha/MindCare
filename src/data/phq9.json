@@ -1,0 +1,71 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Little interest or pleasure in doing things",
+      "hindi": "कामों में रुचि या खुशी का कम होना",
+      "tamil": "செயல்களில் ஆர்வம் அல்லது மகிழ்ச்சி குறைவு"
+    },
+    {
+      "id": 2,
+      "question": "Feeling down, depressed, or hopeless",
+      "hindi": "उदास, निराश या हतोत्साहित महसूस करना",
+      "tamil": "மனச்சோர்வு, நிராசை அல்லது ஏமாற்றம் உணர்தல்"
+    },
+    {
+      "id": 3,
+      "question": "Trouble falling or staying asleep, or sleeping too much",
+      "hindi": "सोने में परेशानी, नींद न आना या बहुत ज्यादा सोना",
+      "tamil": "தூக்கம் வராமல் அல்லது அதிக நேரம் தூங்குதல்"
+    },
+    {
+      "id": 4,
+      "question": "Feeling tired or having little energy",
+      "hindi": "थकान महसूस करना या ऊर्जा की कमी",
+      "tamil": "களைப்பு அல்லது ஆற்றல் குறைவு உணர்தல்"
+    },
+    {
+      "id": 5,
+      "question": "Poor appetite or overeating",
+      "hindi": "भूख न लगना या बहुत ज्यादा खाना",
+      "tamil": "பசியின்மை அல்லது அதிக உணவு உண்ணல்"
+    },
+    {
+      "id": 6,
+      "question": "Feeling bad about yourself or that you are a failure",
+      "hindi": "अपने बारे में बुरा सोचना या असफल होने का एहसास",
+      "tamil": "தன்னைப் பற்றி மோசமாக உணர்தல் அல்லது தோல்வி உணர்வு"
+    },
+    {
+      "id": 7,
+      "question": "Trouble concentrating on things",
+      "hindi": "किसी काम में मन न लगना या ध्यान केंद्रित करने में परेशानी",
+      "tamil": "கவனம் செலுத்துவதில் சிரமம்"
+    },
+    {
+      "id": 8,
+      "question": "Moving or speaking slowly, or being fidgety or restless",
+      "hindi": "धीरे-धीरे चलना या बोलना, या बेचैनी और घबराहट",
+      "tamil": "மெதுவாக நகர்தல் அல்லது பேசுதல், அல்லது அமைதியின்மை"
+    },
+    {
+      "id": 9,
+      "question": "Thoughts of hurting yourself or that you would be better off dead",
+      "hindi": "खुद को नुकसान पहुंचाने या मरने के विचार आना",
+      "tamil": "தன்னைத் தானே காயப்படுத்தும் எண்णம் அல்லது இறப்பது நல்லது என்ற எண்ணம்"
+    }
+  ],
+  "options": [
+    { "value": 0, "text": "Not at all", "hindi": "बिल्कुल नहीं", "tamil": "முற்றிலும் இல்லை" },
+    { "value": 1, "text": "Several days", "hindi": "कुछ दिन", "tamil": "சில நாள்கள்" },
+    { "value": 2, "text": "More than half the days", "hindi": "आधे से अधिक दिन", "tamil": "பாதி நாள்களுக்கு மேல்" },
+    { "value": 3, "text": "Nearly every day", "hindi": "लगभग हर दिन", "tamil": "கிட்டத்தட்ட ஒவ்வொரு நாளும்" }
+  ],
+  "scoring": {
+    "minimal": { "range": [0, 4], "label": "Minimal Depression", "color": "green" },
+    "mild": { "range": [5, 9], "label": "Mild Depression", "color": "yellow" },
+    "moderate": { "range": [10, 14], "label": "Moderate Depression", "color": "orange" },
+    "moderately_severe": { "range": [15, 19], "label": "Moderately Severe Depression", "color": "red" },
+    "severe": { "range": [20, 27], "label": "Severe Depression", "color": "red" }
+  }
+}

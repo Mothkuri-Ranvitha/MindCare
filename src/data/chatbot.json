@@ -1,0 +1,24 @@
+{
+  "crisisKeywords": {
+    "english": ["suicide", "kill myself", "end my life", "self-harm", "hurt myself", "want to die", "suicidal", "hopeless", "worthless", "can't go on"],
+    "hindi": ["आत्महत्या", "खुद को मारना", "मरना चाहता हूं", "जीना नहीं चाहता", "खुद को नुकसान", "बेकार", "निराश", "जिंदगी छोड़ना"],
+    "tamil": ["தற்கொலை", "சாகணும்", "உயிரை மாய்த்துக்க", "வாழ்க்கை வேண்டாம்", "பயனற்றவன்", "நம்பிக்கையற்றது"]
+  },
+  "responses": {
+    "crisis": {
+      "english": "I'm very concerned about what you're saying. Your life has value and you deserve support. Please reach out to a counselor immediately or call our crisis helpline: 022-2754 6669. Would you like me to connect you with emergency support?",
+      "hindi": "मैं आपकी बात से बहुत चिंतित हूं। आपका जीवन मूल्यवान है और आप सहायता के हकदार हैं। कृपया तुरंत किसी सलाहकार से संपर्क करें या हमारी क्राइसिस हेल्पलाइन पर कॉल करें: 022-2754 6669।",
+      "tamil": "நீங்கள் சொல்வதைக் கேட்டு நான் மிகவும் கவலைப்படுகிறேன். உங்கள் வாழ்க்கை மதிப்புமிக்கது. உடனே ஆலோசகரை அணுகவும் அல்லது நெருக்கடி உதவி எண்ணை அழைக்கவும்: 022-2754 6669"
+    },
+    "greeting": {
+      "english": "Hello! I'm here to support you. How are you feeling today?",
+      "hindi": "नमस्ते! मैं आपकी सहायता के लिए यहां हूं। आज आप कैसा महसूस कर रहे हैं?",
+      "tamil": "வணக்கம்! நான் உங்களுக்கு ஆதரவளிக்க இங்கே இருக்கிறேன். இன்று நீங்கள் எப்படி உணர்கிறீர்கள்?"
+    },
+    "default": {
+      "english": "I understand you're going through something difficult. Can you tell me more about how you're feeling?",
+      "hindi": "मैं समझता हूं कि आप कुछ कठिन दौर से गुजर रहे हैं। क्या आप मुझे बता सकते हैं कि आप कैसा महसूस कर रहे हैं?",
+      "tamil": "நீங்கள் ஏதோ கடினமான சூழ்நிலையை சந்திக்கிறீர்கள் என்று புரிகிறது. நீங்கள் எப்படி உணர்கிறீர்கள் என்று கூற முடியுமா?"
+    }
+  }
+}

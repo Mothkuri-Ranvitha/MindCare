@@ -1,0 +1,31 @@
+{
+  "dashboardStats": {
+    "totalUsers": 1250,
+    "activeUsers": 890,
+    "totalAssessments": 3420,
+    "crisisAlerts": 12,
+    "counselingSessions": 567,
+    "resourceViews": 8934
+  },
+  "monthlyTrends": [
+    { "month": "Jan", "users": 180, "assessments": 45, "sessions": 23 },
+    { "month": "Feb", "users": 220, "assessments": 67, "sessions": 34 },
+    { "month": "Mar", "users": 280, "assessments": 89, "sessions": 45 },
+    { "month": "Apr", "users": 320, "assessments": 112, "sessions": 56 },
+    { "month": "May", "users": 360, "assessments": 134, "sessions": 67 },
+    { "month": "Jun", "users": 420, "assessments": 156, "sessions": 78 }
+  ],
+  "severityDistribution": {
+    "minimal": 45,
+    "mild": 30,
+    "moderate": 15,
+    "moderately_severe": 7,
+    "severe": 3
+  },
+  "collegeStats": [
+    { "name": "Delhi University", "users": 450, "assessments": 1200 },
+    { "name": "JNU", "users": 320, "assessments": 890 },
+    { "name": "IIT Delhi", "users": 280, "assessments": 760 },
+    { "name": "Jamia Millia", "users": 200, "assessments": 570 }
+  ]
+}

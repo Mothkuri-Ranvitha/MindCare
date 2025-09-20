@@ -1,0 +1,69 @@
+{
+  "resources": [
+    {
+      "id": "1",
+      "title": "Understanding Depression in College",
+      "hindi": "कॉलेज में डिप्रेशन को समझना",
+      "tamil": "கல்லூரியில் மனச்சோர்வை புரிந்துகொள்ளுதல்",
+      "category": "Mental Health",
+      "type": "article",
+      "content": "Depression is a common mental health condition among college students...",
+      "tags": ["depression", "college", "mental health"],
+      "language": "english",
+      "readingTime": 5,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "2", 
+      "title": "Stress Management Techniques",
+      "hindi": "तनाव प्रबंधन तकनीकें",
+      "tamil": "மன அழுத்த மேலாண்மை நுட்பங்கள்",
+      "category": "Self-Help",
+      "type": "guide",
+      "content": "Learn effective stress management techniques for academic success...",
+      "tags": ["stress", "management", "techniques"],
+      "language": "multilingual",
+      "readingTime": 8,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "3",
+      "title": "Building Healthy Relationships",
+      "hindi": "स्वस्थ रिश्ते बनाना",
+      "tamil": "ஆரோக்கியமான உறவுகளை உருவாக்குதல்",
+      "category": "Relationships",
+      "type": "video",
+      "content": "Tips for building and maintaining healthy relationships in college...",
+      "tags": ["relationships", "social", "college life"],
+      "language": "hindi",
+      "readingTime": 10,
+      "difficulty": "beginner"
+    }
+  ],
+  "emergencyContacts": [
+    {
+      "name": "National Suicide Prevention Helpline",
+      "phone": "022-2754 6669",
+      "available": "24/7",
+      "languages": ["English", "Hindi"]
+    },
+    {
+      "name": "Snehi (Delhi)",
+      "phone": "011-65656565",
+      "available": "24/7", 
+      "languages": ["English", "Hindi"]
+    },
+    {
+      "name": "AASRA (Mumbai)",
+      "phone": "022-27546669",
+      "available": "24/7",
+      "languages": ["English", "Hindi", "Marathi"]
+    },
+    {
+      "name": "Sumaitri (Delhi)",
+      "phone": "011-23389090",
+      "available": "24/7",
+      "languages": ["English", "Hindi"]
+    }
+  ]
+}
