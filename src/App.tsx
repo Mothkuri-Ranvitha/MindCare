@@ -37,7 +37,7 @@ const AppContent: React.FC = () => {
         if (user.role === 'system_admin' || user.role === 'college_admin') {
           return <AdminDashboard />;
         }
-        return <StudentDashboard />;
+        return <StudentDashboard setActiveTab={setActiveTab} />;
       case 'assessment':
         return <PHQ9Assessment />;
       case 'chat':

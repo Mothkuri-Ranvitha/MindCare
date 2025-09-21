@@ -34,9 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, isOpen, onCl
         ...baseItems,
         { id: 'assessment', label: t('nav.assessment', 'Assessment'), icon: ClipboardList },
         { id: 'chat', label: t('nav.chat', 'Chat Support'), icon: MessageCircle },
-        { id: 'peer-chat', label: 'Peer Support', icon: Users },
-        { id: 'resources', label: t('nav.resources', 'Resources'), icon: BookOpen },
-        { id: 'appointments', label: t('nav.appointments', 'Appointments'), icon: Calendar }
+        { id: 'resources', label: t('nav.resources', 'Resources'), icon: BookOpen }
       ];
     }
 
