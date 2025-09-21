@@ -1,0 +1,109 @@
+{
+  "volunteers": [
+    {
+      "id": "1",
+      "name": "Arjun Singh",
+      "college": "Delhi University",
+      "course": "B.Tech Computer Science",
+      "year": 3,
+      "bio": "I'm passionate about helping fellow students navigate through academic stress and personal challenges. Having experienced similar struggles myself, I understand the importance of peer support.",
+      "languages": ["English", "Hindi", "Punjabi"],
+      "availability": {
+        "monday": { "start": "18:00", "end": "22:00" },
+        "tuesday": { "start": "18:00", "end": "22:00" },
+        "wednesday": { "start": "18:00", "end": "22:00" },
+        "thursday": { "start": "18:00", "end": "22:00" },
+        "friday": { "start": "18:00", "end": "22:00" },
+        "saturday": { "start": "10:00", "end": "16:00" },
+        "sunday": { "start": "10:00", "end": "16:00" }
+      },
+      "rating": 4.9,
+      "sessions": 127,
+      "profileImage": "/api/placeholder/150/150"
+    },
+    {
+      "id": "2",
+      "name": "Priya Sharma",
+      "college": "Jammu University",
+      "course": "M.A. Psychology",
+      "year": 2,
+      "bio": "As a psychology student, I believe in the power of active listening and empathy. I'm here to provide a safe space for students to express their feelings and concerns.",
+      "languages": ["English", "Hindi", "Kashmiri"],
+      "availability": {
+        "monday": { "start": "19:00", "end": "23:00" },
+        "tuesday": { "start": "19:00", "end": "23:00" },
+        "wednesday": { "start": "19:00", "end": "23:00" },
+        "thursday": { "start": "19:00", "end": "23:00" },
+        "friday": { "start": "19:00", "end": "23:00" },
+        "saturday": { "start": "14:00", "end": "20:00" },
+        "sunday": { "start": "14:00", "end": "20:00" }
+      },
+      "rating": 4.8,
+      "sessions": 89,
+      "profileImage": "/api/placeholder/150/150"
+    },
+    {
+      "id": "3",
+      "name": "Rahul Kumar",
+      "college": "Kashmir University",
+      "course": "B.Tech Mechanical Engineering",
+      "year": 4,
+      "bio": "I've been through the ups and downs of college life and understand how overwhelming it can get. I'm here to listen and share experiences that might help you feel less alone.",
+      "languages": ["English", "Hindi", "Urdu"],
+      "availability": {
+        "monday": { "start": "17:00", "end": "21:00" },
+        "tuesday": { "start": "17:00", "end": "21:00" },
+        "wednesday": { "start": "17:00", "end": "21:00" },
+        "thursday": { "start": "17:00", "end": "21:00" },
+        "friday": { "start": "17:00", "end": "21:00" },
+        "saturday": { "start": "09:00", "end": "15:00" },
+        "sunday": { "start": "09:00", "end": "15:00" }
+      },
+      "rating": 4.7,
+      "sessions": 156,
+      "profileImage": "/api/placeholder/150/150"
+    },
+    {
+      "id": "4",
+      "name": "Sneha Patel",
+      "college": "Punjab University",
+      "course": "B.Sc. Mathematics",
+      "year": 2,
+      "bio": "I believe that everyone deserves someone to talk to during difficult times. As a peer volunteer, I'm committed to providing emotional support and understanding to fellow students.",
+      "languages": ["English", "Hindi", "Gujarati"],
+      "availability": {
+        "monday": { "start": "16:00", "end": "20:00" },
+        "tuesday": { "start": "16:00", "end": "20:00" },
+        "wednesday": { "start": "16:00", "end": "20:00" },
+        "thursday": { "start": "16:00", "end": "20:00" },
+        "friday": { "start": "16:00", "end": "20:00" },
+        "saturday": { "start": "11:00", "end": "17:00" },
+        "sunday": { "start": "11:00", "end": "17:00" }
+      },
+      "rating": 4.9,
+      "sessions": 98,
+      "profileImage": "/api/placeholder/150/150"
+    },
+    {
+      "id": "5",
+      "name": "Vikram Singh",
+      "college": "Government College of Engineering",
+      "course": "B.Tech Civil Engineering",
+      "year": 3,
+      "bio": "Having struggled with anxiety and stress during my early college years, I understand the challenges students face. I'm here to offer support and share coping strategies that have helped me.",
+      "languages": ["English", "Hindi", "Punjabi"],
+      "availability": {
+        "monday": { "start": "18:30", "end": "22:30" },
+        "tuesday": { "start": "18:30", "end": "22:30" },
+        "wednesday": { "start": "18:30", "end": "22:30" },
+        "thursday": { "start": "18:30", "end": "22:30" },
+        "friday": { "start": "18:30", "end": "22:30" },
+        "saturday": { "start": "12:00", "end": "18:00" },
+        "sunday": { "start": "12:00", "end": "18:00" }
+      },
+      "rating": 4.6,
+      "sessions": 73,
+      "profileImage": "/api/placeholder/150/150"
+    }
+  ]
+}

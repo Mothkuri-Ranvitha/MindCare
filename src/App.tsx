@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from './contexts/AuthContext';
 import { AuthProvider } from './contexts/AuthContext';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Login from './components/Auth/Login';
+import Registration from './components/Auth/Registration';
+import LandingPage from './components/LandingPage';
 import Navbar from './components/Layout/Navbar';
 import Sidebar from './components/Layout/Sidebar';
 import StudentDashboard from './components/Dashboard/StudentDashboard';
@@ -10,11 +12,26 @@ import PHQ9Assessment from './components/Assessment/PHQ9Assessment';
 import AIChat from './components/Chat/AIChat';
 import ResourceLibrary from './components/Resources/ResourceLibrary';
 import AdminDashboard from './components/Analytics/AdminDashboard';
+import PeerVolunteers from './components/Student/PeerVolunteers';
+import CounselorBooking from './components/Student/CounselorBooking';
+import VolunteerDashboard from './components/Volunteer/VolunteerDashboard';
 
 const AppContent: React.FC = () => {
   const { user, loading } = useAuth();
   const [activeTab, setActiveTab] = useState('dashboard');
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState('landing');
+
+  useEffect(() => {
+    const path = window.location.pathname;
+    if (path === '/register') {
+      setCurrentPage('register');
+    } else if (path === '/login') {
+      setCurrentPage('login');
+    } else {
+      setCurrentPage('landing');
+    }
+  }, []);
 
   if (loading) {
     return (
@@ -28,7 +45,12 @@ const AppContent: React.FC = () => {
   }
 
   if (!user) {
-    return <Login />;
+    if (currentPage === 'register') {
+      return <Registration />;
+    } else if (currentPage === 'login') {
+      return <Login />;
+    }
+    return <LandingPage />;
   }
 
   const renderContent = () => {
@@ -37,11 +59,18 @@ const AppContent: React.FC = () => {
         if (user.role === 'system_admin' || user.role === 'college_admin') {
           return <AdminDashboard />;
         }
+        if (user.role === 'peer_volunteer') {
+          return <VolunteerDashboard />;
+        }
         return <StudentDashboard setActiveTab={setActiveTab} />;
       case 'assessment':
         return <PHQ9Assessment />;
       case 'chat':
         return <AIChat />;
+      case 'peer_volunteers':
+        return <PeerVolunteers />;
+      case 'book_counselor':
+        return <CounselorBooking />;
       case 'resources':
         return <ResourceLibrary />;
       case 'analytics':

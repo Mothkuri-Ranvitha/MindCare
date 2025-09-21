@@ -37,6 +37,20 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({ setActiveTab }) => 
       action: 'chat'
     },
     {
+      title: 'Peer Volunteers',
+      description: 'Connect with trained student volunteers',
+      icon: Users,
+      color: 'bg-blue-500',
+      action: 'peer_volunteers'
+    },
+    {
+      title: 'Book Counselor',
+      description: 'Schedule sessions with professional counselors',
+      icon: Calendar,
+      color: 'bg-purple-500',
+      action: 'book_counselor'
+    },
+    {
       title: 'Resource Hub',
       description: 'Access articles, videos, and tools',
       icon: BookOpen,
@@ -48,6 +62,7 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({ setActiveTab }) => 
   const recentActivity = [
     { type: 'assessment', date: '2024-12-15', result: 'Mild Depression (Score: 7)' },
     { type: 'session', date: '2024-12-12', result: 'Counseling session completed' },
+    { type: 'peer_chat', date: '2024-12-11', result: 'Chat with Arjun Singh (Peer Volunteer)' },
     { type: 'resource', date: '2024-12-10', result: 'Read: Managing Academic Stress' }
   ];
 
@@ -114,6 +129,7 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({ setActiveTab }) => 
                 <div className="flex-shrink-0">
                   {activity.type === 'assessment' && <ClipboardList className="h-5 w-5 text-blue-600" />}
                   {activity.type === 'session' && <MessageCircle className="h-5 w-5 text-green-600" />}
+                  {activity.type === 'peer_chat' && <Users className="h-5 w-5 text-blue-600" />}
                   {activity.type === 'resource' && <BookOpen className="h-5 w-5 text-purple-600" />}
                 </div>
                 <div>

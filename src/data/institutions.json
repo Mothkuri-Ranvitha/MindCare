@@ -1,0 +1,113 @@
+{
+  "institutions": [
+    {
+      "id": "1",
+      "name": "Delhi University",
+      "code": "DU001",
+      "address": "North Campus, Delhi",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110007",
+      "emailDomain": "@du.ac.in",
+      "contactPerson": {
+        "name": "Dr. Rajesh Kumar",
+        "email": "admin@du.ac.in",
+        "phone": "+91-11-27667858"
+      },
+      "studentCount": "5001-10000",
+      "establishedYear": "1922",
+      "institutionType": "university",
+      "website": "https://www.du.ac.in",
+      "status": "active",
+      "approvedAt": "2024-01-15",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": "2",
+      "name": "Jammu University",
+      "code": "JU001",
+      "address": "Baba Saheb Ambedkar Road, Jammu",
+      "city": "Jammu",
+      "state": "Jammu and Kashmir",
+      "pincode": "180006",
+      "emailDomain": "@jammuuniversity.ac.in",
+      "contactPerson": {
+        "name": "Dr. Priya Sharma",
+        "email": "admin@jammuuniversity.ac.in",
+        "phone": "+91-191-2456100"
+      },
+      "studentCount": "1001-5000",
+      "establishedYear": "1969",
+      "institutionType": "university",
+      "website": "https://www.jammuuniversity.ac.in",
+      "status": "active",
+      "approvedAt": "2024-01-20",
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": "3",
+      "name": "Kashmir University",
+      "code": "KU001",
+      "address": "Hazratbal, Srinagar",
+      "city": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "pincode": "190006",
+      "emailDomain": "@kashmiruniversity.net",
+      "contactPerson": {
+        "name": "Dr. Ahmed Khan",
+        "email": "admin@kashmiruniversity.net",
+        "phone": "+91-194-2413100"
+      },
+      "studentCount": "1001-5000",
+      "establishedYear": "1948",
+      "institutionType": "university",
+      "website": "https://www.kashmiruniversity.net",
+      "status": "active",
+      "approvedAt": "2024-01-25",
+      "createdAt": "2024-01-20"
+    },
+    {
+      "id": "4",
+      "name": "Government College of Engineering",
+      "code": "GCE001",
+      "address": "Sector 28, Chandigarh",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "pincode": "160028",
+      "emailDomain": "@gcechandigarh.ac.in",
+      "contactPerson": {
+        "name": "Prof. Sunil Verma",
+        "email": "admin@gcechandigarh.ac.in",
+        "phone": "+91-172-2784000"
+      },
+      "studentCount": "501-1000",
+      "establishedYear": "1995",
+      "institutionType": "college",
+      "website": "https://www.gcechandigarh.ac.in",
+      "status": "pending",
+      "createdAt": "2024-01-30"
+    },
+    {
+      "id": "5",
+      "name": "Punjab University",
+      "code": "PU001",
+      "address": "Sector 14, Chandigarh",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "pincode": "160014",
+      "emailDomain": "@puchd.ac.in",
+      "contactPerson": {
+        "name": "Dr. Manpreet Kaur",
+        "email": "admin@puchd.ac.in",
+        "phone": "+91-172-2534000"
+      },
+      "studentCount": "10000+",
+      "establishedYear": "1882",
+      "institutionType": "university",
+      "website": "https://www.puchd.ac.in",
+      "status": "active",
+      "approvedAt": "2024-02-01",
+      "createdAt": "2024-01-25"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "counselors": [
+    {
+      "id": "1",
+      "name": "Dr. Rajesh Kumar",
+      "email": "rajesh.kumar@du.ac.in",
+      "phone": "+91-9876543210",
+      "qualification": "M.A. Psychology, Ph.D. Clinical Psychology",
+      "experience": "8",
+      "specialization": ["Depression", "Anxiety", "Academic Stress"],
+      "languages": ["English", "Hindi", "Punjabi"],
+      "institutionId": "1",
+      "status": "approved",
+      "licenseNumber": "PSY-001-DU",
+      "availability": {
+        "monday": { "start": "09:00", "end": "17:00" },
+        "tuesday": { "start": "09:00", "end": "17:00" },
+        "wednesday": { "start": "09:00", "end": "17:00" },
+        "thursday": { "start": "09:00", "end": "17:00" },
+        "friday": { "start": "09:00", "end": "17:00" },
+        "saturday": { "start": "", "end": "" },
+        "sunday": { "start": "", "end": "" }
+      },
+      "bio": "Experienced clinical psychologist specializing in student mental health with 8 years of practice.",
+      "createdAt": "2024-01-15",
+      "approvedAt": "2024-01-16"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Priya Sharma",
+      "email": "priya.sharma@jammuuniversity.ac.in",
+      "phone": "+91-9876543211",
+      "qualification": "M.Phil Psychology, Ph.D. Counseling Psychology",
+      "experience": "6",
+      "specialization": ["Relationship Issues", "Career Counseling", "Stress Management"],
+      "languages": ["English", "Hindi", "Kashmiri"],
+      "institutionId": "2",
+      "status": "approved",
+      "licenseNumber": "PSY-002-JU",
+      "availability": {
+        "monday": { "start": "10:00", "end": "16:00" },
+        "tuesday": { "start": "10:00", "end": "16:00" },
+        "wednesday": { "start": "10:00", "end": "16:00" },
+        "thursday": { "start": "10:00", "end": "16:00" },
+        "friday": { "start": "10:00", "end": "16:00" },
+        "saturday": { "start": "09:00", "end": "13:00" },
+        "sunday": { "start": "", "end": "" }
+      },
+      "bio": "Dedicated counselor with expertise in career guidance and relationship counseling for college students.",
+      "createdAt": "2024-01-20",
+      "approvedAt": "2024-01-21"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Ahmed Khan",
+      "email": "ahmed.khan@independent.com",
+      "phone": "+91-9876543212",
+      "qualification": "M.A. Psychology, M.Phil Clinical Psychology",
+      "experience": "4",
+      "specialization": ["Trauma", "PTSD", "Crisis Intervention"],
+      "languages": ["English", "Urdu", "Kashmiri"],
+      "institutionId": null,
+      "status": "pending",
+      "licenseNumber": "PSY-003-IND",
+      "availability": {
+        "monday": { "start": "14:00", "end": "20:00" },
+        "tuesday": { "start": "14:00", "end": "20:00" },
+        "wednesday": { "start": "14:00", "end": "20:00" },
+        "thursday": { "start": "14:00", "end": "20:00" },
+        "friday": { "start": "14:00", "end": "20:00" },
+        "saturday": { "start": "10:00", "end": "16:00" },
+        "sunday": { "start": "", "end": "" }
+      },
+      "bio": "Independent counselor specializing in trauma therapy and crisis intervention.",
+      "createdAt": "2024-01-25"
+    }
+  ]
+}
