@@ -1,31 +1,43 @@
 {
   "appointments": [
     {
-      "id": "apt-001",
+      "id": "1",
       "studentId": "1",
-      "counselorId": "2", 
+      "counselorId": "1",
+      "counselorName": "Dr. Rajesh Kumar",
       "date": "2024-12-20",
       "time": "10:00",
-      "duration": 60,
-      "status": "scheduled",
-      "type": "individual",
-      "mode": "online",
-      "notes": "First session - assessment"
+      "type": "video",
+      "status": "confirmed",
+      "notes": "Follow-up session for anxiety management",
+      "createdAt": "2024-12-15T09:30:00Z",
+      "confirmedAt": "2024-12-15T09:35:00Z"
     },
     {
-      "id": "apt-002",
+      "id": "2",
       "studentId": "1",
       "counselorId": "2",
+      "counselorName": "Dr. Priya Sharma",
       "date": "2024-12-18",
-      "time": "14:00", 
-      "duration": 45,
+      "time": "14:00",
+      "type": "phone",
+      "status": "pending",
+      "notes": "Initial consultation for academic stress",
+      "createdAt": "2024-12-15T11:20:00Z"
+    },
+    {
+      "id": "3",
+      "studentId": "2",
+      "counselorId": "1",
+      "counselorName": "Dr. Rajesh Kumar",
+      "date": "2024-12-16",
+      "time": "16:00",
+      "type": "in-person",
       "status": "completed",
-      "type": "individual",
-      "mode": "in-person",
-      "notes": "Follow-up session"
+      "notes": "Completed session on depression management",
+      "createdAt": "2024-12-10T14:15:00Z",
+      "confirmedAt": "2024-12-10T14:20:00Z",
+      "completedAt": "2024-12-16T17:00:00Z"
     }
-  ],
-  "timeSlots": [
-    "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00"
   ]
 }

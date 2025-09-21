@@ -53,6 +53,35 @@
       "password": "super123", 
       "name": "System Administrator",
       "role": "system_admin"
+    },
+    {
+      "id": "5",
+      "email": "volunteer@college.edu",
+      "password": "volunteer123",
+      "name": "Arjun Singh",
+      "role": "peer_volunteer",
+      "college": "Delhi University",
+      "course": "B.Tech Computer Science",
+      "year": 3,
+      "phone": "+91-9876543212",
+      "bio": "I'm passionate about helping fellow students navigate through academic stress and personal challenges. Having experienced similar struggles myself, I understand the importance of peer support.",
+      "languages": ["English", "Hindi", "Punjabi"],
+      "availability": {
+        "monday": { "start": "18:00", "end": "22:00" },
+        "tuesday": { "start": "18:00", "end": "22:00" },
+        "wednesday": { "start": "18:00", "end": "22:00" },
+        "thursday": { "start": "18:00", "end": "22:00" },
+        "friday": { "start": "18:00", "end": "22:00" },
+        "saturday": { "start": "10:00", "end": "16:00" },
+        "sunday": { "start": "10:00", "end": "16:00" }
+      },
+      "rating": 4.9,
+      "sessions": 127,
+      "profile": {
+        "joinedDate": "2024-01-10",
+        "totalHours": 89,
+        "escalationCount": 1
+      }
     }
   ]
 }

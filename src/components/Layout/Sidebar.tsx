@@ -10,7 +10,9 @@ import {
   BarChart3,
   Users,
   AlertTriangle,
-  X
+  X,
+  UserPlus,
+  CalendarCheck
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -34,6 +36,8 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, isOpen, onCl
         ...baseItems,
         { id: 'assessment', label: t('nav.assessment', 'Assessment'), icon: ClipboardList },
         { id: 'chat', label: t('nav.chat', 'Chat Support'), icon: MessageCircle },
+        { id: 'peer_volunteers', label: 'Peer Volunteers', icon: UserPlus },
+        { id: 'book_counselor', label: 'Book Counselor', icon: CalendarCheck },
         { id: 'resources', label: t('nav.resources', 'Resources'), icon: BookOpen }
       ];
     }
@@ -43,6 +47,16 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, isOpen, onCl
         ...baseItems,
         { id: 'appointments', label: 'My Appointments', icon: Calendar },
         { id: 'students', label: 'Students', icon: Users },
+        { id: 'resources', label: 'Resources', icon: BookOpen },
+        { id: 'crisis-alerts', label: 'Crisis Alerts', icon: AlertTriangle }
+      ];
+    }
+
+    if (user?.role === 'peer_volunteer') {
+      return [
+        ...baseItems,
+        { id: 'volunteer_dashboard', label: 'Volunteer Dashboard', icon: Users },
+        { id: 'chat_requests', label: 'Chat Requests', icon: MessageCircle },
         { id: 'resources', label: 'Resources', icon: BookOpen },
         { id: 'crisis-alerts', label: 'Crisis Alerts', icon: AlertTriangle }
       ];

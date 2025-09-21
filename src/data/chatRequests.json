@@ -1,0 +1,43 @@
+{
+  "chatRequests": [
+    {
+      "id": "1",
+      "studentId": "1",
+      "volunteerId": "5",
+      "studentName": "Priya Sharma",
+      "volunteerName": "Arjun Singh",
+      "message": "Hi, I'm feeling overwhelmed with my studies and need someone to talk to.",
+      "status": "pending",
+      "priority": "medium",
+      "tags": ["academic stress", "overwhelmed"],
+      "requestedAt": "2024-12-15T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "studentId": "2",
+      "volunteerId": "5",
+      "studentName": "Rahul Kumar",
+      "volunteerName": "Arjun Singh",
+      "message": "I'm having trouble sleeping and feeling anxious about exams.",
+      "status": "accepted",
+      "priority": "high",
+      "tags": ["anxiety", "sleep issues", "exams"],
+      "requestedAt": "2024-12-15T09:15:00Z",
+      "acceptedAt": "2024-12-15T09:20:00Z"
+    },
+    {
+      "id": "3",
+      "studentId": "3",
+      "volunteerId": "5",
+      "studentName": "Sneha Patel",
+      "volunteerName": "Arjun Singh",
+      "message": "I feel lonely and isolated from my peers. Can we chat?",
+      "status": "completed",
+      "priority": "medium",
+      "tags": ["loneliness", "isolation", "peer support"],
+      "requestedAt": "2024-12-14T16:45:00Z",
+      "acceptedAt": "2024-12-14T16:50:00Z",
+      "completedAt": "2024-12-14T17:30:00Z"
+    }
+  ]
+}

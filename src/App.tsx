@@ -75,6 +75,10 @@ const AppContent: React.FC = () => {
         return <ResourceLibrary />;
       case 'analytics':
         return <AdminDashboard />;
+      case 'volunteer_dashboard':
+        return <VolunteerDashboard />;
+      case 'chat_requests':
+        return <VolunteerDashboard />;
       default:
         return <div className="text-center text-gray-500">Feature coming soon...</div>;
     }
