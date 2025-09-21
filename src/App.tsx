@@ -16,6 +16,7 @@ import PeerVolunteers from './components/Student/PeerVolunteers';
 import CounselorBooking from './components/Student/CounselorBooking';
 import VolunteerDashboard from './components/Volunteer/VolunteerDashboard';
 import CounselorDashboard from './components/Dashboard/CounselorDashboard';
+import InstitutionAdminDashboard from './components/Dashboard/InstitutionAdminDashboard';
 
 const AppContent: React.FC = () => {
   const { user, loading } = useAuth();
@@ -57,8 +58,11 @@ const AppContent: React.FC = () => {
   const renderContent = () => {
     switch (activeTab) {
       case 'dashboard':
-        if (user.role === 'system_admin' || user.role === 'college_admin') {
+        if (user.role === 'system_admin') {
           return <AdminDashboard />;
+        }
+        if (user.role === 'college_admin') {
+          return <InstitutionAdminDashboard />;
         }
         if (user.role === 'counselor') {
           return <CounselorDashboard />;
@@ -89,6 +93,8 @@ const AppContent: React.FC = () => {
         return <CounselorDashboard />;
       case 'crisis-alerts':
         return <CounselorDashboard />;
+      case 'counselors':
+        return <InstitutionAdminDashboard />;
       default:
         return <div className="text-center text-gray-500">Feature coming soon...</div>;
     }

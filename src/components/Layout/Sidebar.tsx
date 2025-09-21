@@ -12,7 +12,8 @@ import {
   AlertTriangle,
   X,
   UserPlus,
-  CalendarCheck
+  CalendarCheck,
+  Heart
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -62,7 +63,14 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, isOpen, onCl
       ];
     }
 
-    if (user?.role === 'college_admin' || user?.role === 'system_admin') {
+    if (user?.role === 'college_admin') {
+      return [
+        ...baseItems,
+        { id: 'counselors', label: 'Counselor Management', icon: UserPlus }
+      ];
+    }
+
+    if (user?.role === 'system_admin') {
       return [
         ...baseItems,
         { id: 'analytics', label: t('nav.analytics', 'Analytics'), icon: BarChart3 },
@@ -97,6 +105,19 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, isOpen, onCl
           <button onClick={onClose} className="p-2 text-gray-600 hover:text-gray-900">
             <X className="h-6 w-6" />
           </button>
+        </div>
+
+        {/* Logo Section */}
+        <div className="flex items-center px-4 py-4 border-b border-gray-200">
+          <div className="flex items-center">
+            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
+              <Heart className="h-5 w-5 text-white" />
+            </div>
+            <div>
+              <h1 className="text-lg font-bold text-gray-900">MindCare</h1>
+              <p className="text-xs text-gray-500">Mental Health Support</p>
+            </div>
+          </div>
         </div>
 
         <nav className="mt-4 px-4">
